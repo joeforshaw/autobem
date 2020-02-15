@@ -1,0 +1,22 @@
+{
+  "name": "autobem",
+  "version": "1.0.0",
+  "description": "Automatically convert styles for a section of markup into BEM",
+  "scripts": {
+    "build": "./node_modules/uglify-es/bin/uglifyjs chrome/js/calculate-specificity.js chrome/js/units.js chrome/js/styles-calculator.js chrome/js/style-tree-node.js chrome/js/style-tree.js chrome/js/css-exporter.js chrome/js/dialog.js chrome/js/main.js --source-map -o chrome/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeforshaw/autobem.git"
+  },
+  "author": "Joe Forshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeforshaw/autobem/issues"
+  },
+  "homepage": "https://github.com/joeforshaw/autobem#readme",
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "dependencies": {}
+}

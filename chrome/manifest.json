@@ -1,0 +1,16 @@
+{
+  "name": "AutoBEM",
+  "version": "1.0",
+  "description": "Automatically convert styles for a section of markup into BEM",
+  "manifest_version": 2,
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ]
+}
